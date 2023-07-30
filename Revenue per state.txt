@@ -1,0 +1,52 @@
+Revenue per state: 
+column - sum(total) 
+row - state
+
+show the data as a map 
+changed the country to US and changed the color gradient 
+label each state with the total revenue 
+
+Revenue based on month of the year:
+change the datatype of month from string to date
+column - year(month) change it to month(month)
+row - sum(total)
+
+we choose a line chart, and make the month variable discrete instaed of continuous?
+
+Revenue Based on age: 
+column - SUM(age) change to Age(bin) [we create a bin of size 10, so that we can create a bar chart)
+rows - SUM(total)
+
+add label to the total revenue 
+
+Quantity and discount percentage correlation:
+column - discount percentage
+rows - qty ordered 
+
+filter - discount percentage (at least 1)
+
+percentage of revenue per region:
+column - region
+row - sum
+
+choose pie chart, label total revenue 
+
+making a donut chart: 
+create calculated field 
+with axis zero
+add two make one of them colorless and make it to dual axis, to merge them
+
+Revenue Per gender per category: 
+column - SUM(Total)
+rows - Gender, Category
+
+create a butterfuly plot:
+create a female and male revenue category fields (if condition: if it's male then its true)
+
+column - sum(female revenue), sum(zero axis), sum(male revenue)
+rows - category
+
+make the female side reversed and add colors and labels
+
+
+
